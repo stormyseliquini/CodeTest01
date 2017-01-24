@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>code test</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <div>
+        <h1 id="clock"></h1>
+    </div>
+    <div>
+        <h1 id="animation">Origin code academy rocks!</h1>
+    </div>
+    <div>
+        <p>Beach Towel</p>
+        <p>Suntan Lotion</p>
+        <p>Mask, Fins and Snorkel</p>
+        <p>Boogie Board</p>
+    </div>
+    <div>
+        <h1 id="click">Click Me!</h1>
+        <h1 id="clickOutput"></h1>
+    </div>
+    <div id="colorBox" style="background-color:red">
+        <p>Click the button to change the background color of this paragraph.</p>
+        <button>Change Color</button>
+    </div>
+    <div>
+        <h2> 
+How do you define an AngularJS application?
+An application written in javascript that is wrapped in the robust angular framework. This framework is designed to be more functional in larger projects, by providing faster speeds and more scalability.
+</h2>
+        <h2>
+What is a controller?
+A controller is a constructor function used to bind the view to the application.
+</h2>
+        <h2>
+What does ng-model do?
+It binds an output from the application to the view, similar to document.getElementById(id).innerHTML in stock javascript, and $(id).text in jquery.
+</h2>
+        <h2>
+What is interpolation markup?
+The syntax used to inject the value of an expression (as opposed to the expression itself) into the view.
+</h2>
+        <h2>
+What is $scope?
+An object that binds the html to the controller.
+</h2>
+        <h2>
+What is dependency injection?
+A tool to inject a dependency object from outside of the scope, into it, as opposed to writing the logic for a dependency within the scope itself.
+</h2>
+        <h2>
+What is two-way binding?
+Simultaneously, when a change to the view automatically changes the model, and a change to the model automatically changes the view.
+</h2>
+        <h2>
+What is 'controller as' syntax?
+It is syntax used to circumvent the $scope object and prevent scope bleed.
+</h2>
+        <h2>
+What is MV* architecture?
+The previous best-practice architecture of Angular came with many disadvanteges that could've potentially, in large scale applications, outweighed the advantages of the Angular framework altogether. This is because of the manner of which the model and view were binded via the controller. In early versions of Angular, the controller consisted of heavy logic and the $scope object, which lead to a bloated application and scope bleed. With the vm* architecture, a controller is converted into a directive, ideally with one controller for one html template. What this does is help eliminate the need for logic within a controller almost entirely, and allow for easier unit testing, reuse of code and implimentation of code.
+</h2>
+        <h2>
+What is the difference between a service and a factory?
+At the most basic level, both a service and a factory accept a name and a function, the differene being that a service is a constructor function and a factory is not. A factory returns an object literal and can be reinstantiated, while a service is really designed to be used once. However, these differences aren't highly apparent in practice; in fact, if desired a service can do exactly what a factory can do. Furthermore, a service actually is just calling upon a predefined factory with the angular source code, as opposed to creating one.
+</h2>
+    </div>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
